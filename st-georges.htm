@@ -1,0 +1,509 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>The St. George's Respiratory Questionnaire - Sistema por William Castro</title>
+
+<script type="text/javascript" src="inc/jquery-min.js"></script>
+<script type="text/javascript" src="inc/system.js"></script>
+<link href="inc/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="pagina">
+    <div id="formulario">
+		
+        <h4>The St. George's Respiratory Questionnaire</h4><br />
+		<h1>PARTE 1 </h1>
+        <h2>Nas questões abaixo, assinale aquela que melhor identifica seus problemas respiratórios no último ano.<br />
+              Obs: Assinale um só quadrado para as questões de 01 a 08.</h2>
+          
+          <br />
+        <form id="formulario-perguntas" name="formulario-perguntas" method="post" action="">
+              <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                <tr>
+                  <td width="29%"></td>
+                  <td width="17%" align="center" valign="middle" class="table-top">MAIORIA DOS DIAS DA SEMANA (5-7 DIAS)</td>
+                  <td width="14%" align="center" valign="middle" class="table-top">V&Aacute;RIOS DIAS NA SEMANA (2-4 DIAS)</td>
+                  <td width="16%" align="center" valign="middle" class="table-top">ALGUNS DIAS NO M&Ecirc;S</td>
+                  <td width="15%" align="center" valign="middle" class="table-top">S&Oacute; COM INFEC&Ccedil;&Otilde;ES RESPIRAT&Oacute;RIAS</td>
+                  <td width="9%" align="center" valign="middle" class="table-top">NUNCA</td>
+                </tr>
+                <tr id="L_Q01L01" class="even">
+                  <td class="border-line">1. Durante o &uacute;ltimo ano tossi</td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L01" value="80.6" id="Q01L01_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q01L01" type="radio" id="Q01L01_1" value="63.2" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L01" value="29.3" id="Q01L01_2" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L01" value="28.1" id="Q01L01_3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L01" value="0" 	id="Q01L01_4" /></td>
+                </tr>
+                <tr id="L_Q01L02">
+                  <td class="border-line">2. Durante o &uacute;ltimo ano tive catarro</td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L02" value="76.8" id="Q01L02_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L02" value="60" 	id="Q01L02_1" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q01L02" type="radio" 	id="Q01L02_2" value="34" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L02" value="30.2" id="Q01L02_3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L02" value="0" 	id="Q01L02_4" /></td>
+                </tr>
+                <tr id="L_Q01L03" class="even">
+                  <td class="border-line">3. Durante o &uacute;ltimo ano tive falta de ar</td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L03" value="87.2" id="Q01L03_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q01L03" type="radio" id="Q01L03_1" value="71.4" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L03" value="43.7" id="Q01L03_2" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L03" value="35.7" id="Q01L03_3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L03" value="0" 	id="Q01L03_4" /></td>
+                </tr>
+                <tr id="L_Q01L04">
+                  <td class="border-line">4. Durante o &uacute;ltimo ano tive &quot;chiado no peito&quot;</td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L04" value="86.2" id="Q01L04_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q01L04" type="radio" 	id="Q01L04_1" value="71" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L04" value="45.6" id="Q01L04_2" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L04" value="36.4" id="Q01L04_3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q01L04" value="0" 	id="Q01L04_4" /></td>
+                </tr>
+              </table>
+              <br />
+              <h2>5. Durante o &uacute;ltimo ano, quantas crises graves de problemas respirat&oacute;rios voc&ecirc; teve:</h2>
+              <br />
+              <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                <tr>
+                  <td width="23%" align="center" valign="middle" class="table-top">MAIS DE 3</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">3</td>
+                  <td width="21%" align="center" valign="middle" class="table-top">2</td>
+                  <td width="18%" align="center" valign="middle" class="table-top">1</td>
+                  <td width="18%" align="center" valign="middle" class="table-top">NENHUMA</td>
+                </tr>
+                <tr class="border-line even" id="L_Q02L01">
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q02L01" value="86.7" id="Q02L01_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q02L01" value="73.5" id="Q02L01_1" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q02L01" type="radio" id="Q02L01_2" value="60.3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q02L01" value="44.2" id="Q02L01_3" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q02L01" value="0" 	id="Q02L01_4" /></td>
+                </tr>
+              </table>
+              <br />
+              <h2>6. Quanto tempo durou a pior das crises? (passe para a pergunta 7 se não teve crises graves)</h2>
+              <br />
+              
+              <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                <tr>
+                  <td width="23%" align="center" valign="middle" class="table-top">1 SEMANA OU MAIS</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">3 OU MAIS DIAS</td>
+                  <td width="21%" align="center" valign="middle" class="table-top">1 OU 2 DIAS</td>
+                  <td width="18%" align="center" valign="middle" class="table-top">MENOS DE 1 DIA</td>
+                </tr>
+                <tr class="border-line even"  id="L_Q03L01">
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q03L01" value="89.7" id="Q03L01_0" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q03L01" value="73.5" id="Q03L01_1" /></td>
+                  <td align="center" valign="middle" class="border-line"><input name="Q03L01" type="radio" id="Q03L01_2" value="58.8" /></td>
+                  <td align="center" valign="middle" class="border-line"><input type="radio" name="Q03L01" value="41.9" id="Q03L01_3" /></td>
+                </tr>
+              </table>
+              
+              <br />
+              <h2>7. Durante o último ano, em uma semana considerada como habitual, quantos dias bons (com poucos problemas respiratórios) você teve:</h2>
+              <br />
+              
+              <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                <tr>
+                  <td width="20%" align="center" valign="middle" class="table-top">NENHUM DIA</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">1 OU 2 DIAS</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">3 OU 4 DIAS</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">QUASE TODOS OS DIAS</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">TODOS OS DIAS</td>
+                </tr>
+                <tr class="border-line even"  id="L_Q04L01">
+                  <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q04L01" value="93.3" id="Q04L01_0" /></td>
+                  <td width="20%" align="center" valign="middle" class="border-line"><input name="Q04L01" type="radio" id="Q04L01_1" value="76.6" /></td>
+                  <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q04L01" value="61.5" id="Q04L01_2" /></td>
+                  <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q04L01" value="15.4" id="Q04L01_3" /></td>
+                  <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q04L01" value="0" 	id="Q04L01_4" /></td>
+                </tr>
+              </table> 
+               
+              <br />
+              <h2>8. No caso de ter tido "chiado no peito", ele é pior de manhã?</h2>
+              <br />
+              
+              <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                <tr>
+                  <td width="20%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  <td width="20%" align="center" valign="middle" class="table-top">SIM</td>
+                </tr>
+                <tr class="border-line even"  id="L_Q05L01">
+                  <td width="20%" align="center" valign="middle" class="border-line"><input name="Q05L01" type="radio" 	id="Q05L01_0" value="0" /></td>
+                  <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q05L01" value="62" 	id="Q05L01_1" /></td>
+                </tr>
+              </table>
+                <br />
+                <h1>PARTE 2</h1>
+                <h3>SEÇÃO 1</h3>
+                <br />
+                <h2>A) Assinale um só quadrado para descrever sua doença respiratória</h2>
+                <br />
+            
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="25%" align="center" valign="middle" class="table-top">&Eacute; O MEU MAIOR PROBLEMA</td>
+                    <td width="25%" align="center" valign="middle" class="table-top">CAUSA-ME MUITOS PROBLEMAS</td>
+                    <td width="26%" align="center" valign="middle" class="table-top">CAUSA-ME ALGUNS PROBLEMAS</td>
+                    <td width="24%" align="center" valign="middle" class="table-top">N&Atilde;O ME CAUSA NENHUM PROBLEMA</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q06L01">
+                    <td align="center" valign="middle" class="border-line"><input type="radio" name="Q06L01" value="83.2" id="Q06L01_0" /></td>
+                    <td align="center" valign="middle" class="border-line"><input name="Q06L01" type="radio" id="Q06L01_1" value="82.5" /></td>
+                    <td align="center" valign="middle" class="border-line"><input type="radio" name="Q06L01" value="34.6" id="Q06L01_2" /></td>
+                    <td align="center" valign="middle" class="border-line"><input type="radio" name="Q06L01" value="0" id="Q06L01_3" /></td>
+                  </tr>
+                </table>
+                <br />
+                <h2>B) Em relação ao seu trabalho, assinale um dos quadrados: (passe para a Seção 2, se você não trabalha</h2>
+                <br />
+            
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr class="border-line even"  id="L_Q07L01">
+                    <td width="73%" align="left" valign="middle" class="border-line">- minha doen&ccedil;a respirat&oacute;ria obrigou-me a parar de trabalhar</td>
+                    <td width="27%" align="center" valign="middle" class="border-line"><input type="radio" name="Q07L01" value="88.9" id="Q07L01_0" /></td>
+                  </tr>
+                  <tr class="border-line">
+                    <td align="left" valign="middle" class="border-line">- minha doen&ccedil;a respirat&oacute;ria interfere com o meu trabalho normal ou j&aacute; me obrigou a mudar de trabalho</td>
+                    <td width="27%" align="center" valign="middle" class="border-line"><input name="Q07L01" type="radio" id="Q07L01_0" value="77.6" /></td>
+                  </tr>
+                  <tr class="border-line even">
+                    <td align="left" valign="middle" class="border-line">- minha doen&ccedil;a respirat&oacute;ria n&atilde;o afeta o meu trabalho</td>
+                    <td width="27%" align="center" valign="middle" class="border-line"><input type="radio" name="Q07L01" value="0" 	id="Q07L01_0" /></td>
+                  </tr>
+                </table>
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 2</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando a resposta Sim ou N&atilde;o, de acordo com o seu caso atualmente:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="29%"></td>
+                    <td width="10%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="10%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q08L01">
+                    <td class="border-line">- sentado ou deitado</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L01" value="90.6" id="Q08L01_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L01" type="radio" 	id="Q08L01_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q08L02">
+                    <td class="border-line">- tomando banho ou vestindo</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L02" value="82.8" id="Q08L02_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L02" type="radio"	id="Q08L02_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q08L03">
+                    <td class="border-line">- caminhando dentro de casa</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L03" type="radio" id="Q08L03_0" value="80.2" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L03" value="0"	id="Q08L03_1" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q08L04">
+                    <td class="border-line">- caminhando em terreno plano</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L04" type="radio" id="Q08L04_0" value="81.4" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L04" value="0"	id="Q08L04_1" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q08L05">
+                    <td class="border-line">- subindo um lance de escadas</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L05" type="radio" id="Q08L05_0" value="76.1" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L05" value="0" 	id="Q08L05_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q08L06">
+                    <td class="border-line">- subindo ladeiras</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L06" value="75.1" id="Q08L06_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L06" type="radio" 	id="Q08L06_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q08L07">
+                    <td class="border-line">- praticando esportes ou jogos que impliquem esfor&ccedil;o f&iacute;sico</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q08L07" value="72.1" id="Q08L07_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q08L07" type="radio" 	id="Q08L07_1" value="0" /></td>
+                  </tr>
+                </table>
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 3</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando a resposta Sim ou N&atilde;o, para definir o estado de sua tosse e falta de ar atualmente:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="29%"></td>
+                    <td width="10%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="10%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q09L01">
+                    <td class="border-line">- minha tosse causa-me dor</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L01" type="radio" id="Q09L01_0" value="81.1" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L01" value="0" 	id="Q09L01_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q09L02">
+                    <td class="border-line">- minha tosse deixa-me cansado</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L02" value="79.1" id="Q09L02_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L02" type="radio"	id="Q09L02_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q09L03">
+                    <td class="border-line">- falta-me o ar quando falo</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L03" value="84.5" id="Q09L03_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L03" type="radio"	id="Q09L03_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q09L04">
+                    <td class="border-line">- falta-me o ar quando dobro o corpo para frente</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L04" value="76.8" id="Q09L04_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L04" type="radio"	id="Q09L04_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q09L05">
+                    <td class="border-line">- minha tosse ou falta de ar perturba meu sono</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L05" value="87.9" id="Q09L05_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L05" type="radio" 	id="Q09L05_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q09L06">
+                    <td class="border-line">- fico exausto com facilidade</td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input type="radio" name="Q09L06" value="84.0" id="Q09L06_0" /></td>
+                    <td width="10%" align="center" valign="middle" class="border-line"><input name="Q09L06" type="radio" 	id="Q09L06_1" value="0" /></td>
+                  </tr>
+                </table>
+            
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 4</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando a resposta Sim ou N&atilde;o, para definir o estado de sua tosse e falta de ar atualmente:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="62%"></td>
+                    <td width="20%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="20%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q10L01">
+                    <td class="border-line">- minha tosse ou falta de ar, deixam-me envergonhado em p&uacute;blico</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L01" type="radio" id="Q10L01_0" value="74.1" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L01" value="0" 	id="Q10L01_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q10L02">
+                    <td class="border-line">- minha doen&ccedil;a respirat&oacute;ria &eacute; inconveniente para a minha fam&iacute;lia, amigos ou vizinhos</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L02" type="radio" id="Q10L02_0" value="79.1" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L02" value="0"	id="Q10L02_1" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q10L03">
+                    <td class="border-line">- tenho medo ou mesmo p&acirc;nico quando n&atilde;o consigo respirar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L03" value="87.7" id="Q10L03_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L03" type="radio"	id="Q10L03_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q10L04">
+                    <td class="border-line">- sinto que minha doen&ccedil;a respirat&oacute;ria escapa ao meu controle</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L04" value="90.1" id="Q10L04_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L04" type="radio"	id="Q10L04_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q10L05">
+                    <td class="border-line">- eu n&atilde;o espero nenhuma melhora da minha doen&ccedil;a respirat&oacute;ria</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L05" value="82.3" id="Q10L05_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L05" type="radio" 	id="Q10L05_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q10L06">
+                    <td class="border-line">- minha doen&ccedil;a debilitou-me f&iacute;sica e mentalmente, o que faz com que eu precise de ajuda de algu&eacute;m</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L06" value="89.9" id="Q10L06_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L06" type="radio" 	id="Q10L06_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q10L07">
+                    <td class="border-line">- parece-me perigoso fazer exerc&iacute;cio</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L07" value="75.7" id="Q10L07_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L07" type="radio" id="Q10L07_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q10L08">
+                    <td class="border-line">- tudo o que fa&ccedil;o, parece ser demais para minha capacidade</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q10L08" value="84.5" id="Q10L08_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q10L08" type="radio" id="Q10L08_1" value="0" /></td>
+                  </tr>
+                </table>
+                
+                
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 5</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando a resposta Sim ou N&atilde;o, para definir os efeitos da medica&ccedil;&atilde;o na sua doen&ccedil;a respirat&oacute;ria (passe para a Se&ccedil;&atilde;o 6 se n&atilde;o toma medicamentos):</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="62%"></td>
+                    <td width="20%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="20%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q11L01">
+                    <td class="border-line">- minha medica&ccedil;&atilde;o n&atilde;o est&aacute; me ajudando muito</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q11L01" type="radio" id="Q11L01_0" value="88.2" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q11L01" value="0" 	id="Q11L01_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q11L02">
+                    <td class="border-line">- fico envergonhado ao tomar medicamentos em p&uacute;blico</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q11L02" value="53.9" id="Q11L02_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q11L02" type="radio"	id="Q11L02_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q11L03">
+                    <td class="border-line">- minha medica&ccedil;&atilde;o provaca-me efeitos colaterais desagrad&aacute;veis</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q11L03" value="81.1" id="Q11L03_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q11L03" type="radio"	id="Q11L03_1" value="0" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q11L04">
+                    <td class="border-line">- minha medica&ccedil;&atilde;o interfere muito com o meu dia-a-dia</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q11L04" value="70.3" id="Q11L04_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q11L04" type="radio"	id="Q11L04_1" value="0" /></td>
+                  </tr>
+                </table>
+                
+                
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 6</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando resposta Sim ou N&atilde;o, para indicar as atividades que podem ser afetadas pela sua respira&ccedil;&atilde;o:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="62%"></td>
+                    <td width="20%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="20%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q12L01">
+                    <td class="border-line">- levo muito tempo para lavar-me ou vestir-me</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L01" type="radio" id="Q12L01_0" value="74.2" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L01" value="0" 	id="Q12L01_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q12L02">
+                    <td class="border-line">- demoro muito tempo ou n&atilde;o consigo tomar banho de chuveiro ou na banheira</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L02" type="radio" id="Q12L02_0" value="81" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L02" value="0" id="Q12L02_0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q12L03">
+                    <td class="border-line"> - ando mais devagar que as outras pessoas, ou tenho que parar para descansar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L03" value="71.7" id="Q12L03_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L03" type="radio" id="Q12L03_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q12L04">
+                    <td class="border-line">- demoro muito tempo para realizar as tarefas como o trabalho da casa, ou tenho que parar para descansar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L04" value="70.6" id="Q12L04_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L04" type="radio" id="Q12L04_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q12L05">
+                    <td class="border-line">- demoro muito tempo para realizar as tarefas como o trabalho da casa, ou tenho que parar para descansar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L05" value="71.6" id="Q12L05_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L05" type="radio" id="Q12L05_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q12L06">
+                    <td class="border-line">- se estou apressado ou caminho mais depressa, tenho que parar para descansar ou ir mais devagar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L06" value="72.3" id="Q12L06_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L06" type="radio" id="Q12L06_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q12L07">
+                    <td class="border-line">- por causa da minha respira&ccedil;&atilde;o, tenho dificuldade para desenvolver atividades como: subir ladeiras, carregar objetos subindo escadas, dan&ccedil;ar, praticar esporte leve</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L07" value="74.5" id="Q12L07_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L07" type="radio" id="Q12L07_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q12L08">
+                    <td class="border-line">- por causa da minha respira&ccedil;&atilde;o, tenho dificuldades para desenvolver atividades como: carregar grandes pesos, fazer &quot;cooper&quot; ou nadar</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L08" value="71.4" id="Q12L08_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L08" type="radio" id="Q12L08_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q12L09">
+                    <td class="border-line">- por causa da minha respira&ccedil;&atilde;o, tenho dificuldades para desenvolver atividades como: trabalho manual pesado, correr, andar de bicileta, nadar r&aacute;pido ou praticar esportes de competi&ccedil;&atilde;o</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q12L09" value="63.5" id="Q12L09_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q12L09" type="radio" id="Q12L09_0" value="0" /></td>
+                  </tr>
+                </table>
+                
+                
+                    
+                
+                <br />
+                <h3>SE&Ccedil;&Atilde;O 7</h3>
+                <br />
+                <h2> A) Assinale com um &quot;X&quot; no quadrado de cada quest&atilde;o abaixo, indicando a respsota Sim ou N&atilde;o, para indicar as outras atividades que geralmente podem ser afetadas pela sua doen&ccedil;a respirat&oacute;ria:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr>
+                    <td width="62%"></td>
+                    <td width="20%" align="center" valign="middle" class="table-top">SIM</td>
+                    <td width="20%" align="center" valign="middle" class="table-top">N&Atilde;O</td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q13L01">
+                    <td class="border-line">- praticar esportes ou jogos que impliquem esfor&ccedil;o f&iacute;sico</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q13L01" type="radio"	id="Q13L01_0" value="64.8" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q13L01" value="0" 		id="Q13L01_1" /></td>
+                  </tr>
+                  <tr class="border-line" id="L_Q13L02">
+                    <td class="border-line">- sair de casa para me divertir</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q13L02" value="79.8" 	id="Q13L02_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q13L02" type="radio" 		id="Q13L02_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even" id="L_Q13L03">
+                    <td class="border-line">- sair de casa para fazer compras</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q13L03" value="81" 	id="Q13L03_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q13L03" type="radio" 		id="Q13L03_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line"  id="L_Q13L04">
+                    <td class="border-line">- fazer o trabalho de casa</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q13L04" value="79.1" 	id="Q13L04_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q13L04" type="radio" 		id="Q13L04_0" value="0" /></td>
+                  </tr>
+                  <tr class="border-line even"  id="L_Q13L05">
+                    <td class="border-line">- sair da cama ou da cadeira</td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input type="radio" name="Q13L05" value="94" 	id="Q13L05_0" /></td>
+                    <td width="20%" align="center" valign="middle" class="border-line"><input name="Q13L05" type="radio" 		id="Q13L05_0" value="0" /></td>
+                  </tr>
+                </table>
+                <h3>&nbsp;</h3>
+                <br />
+                <h2> B) Das quest&otilde;es abaixo relacionadas assinale somente aquela que melhor define a forma como voc&ecirc; &eacute; afetado pela sua doen&ccedil;a respirat&oacute;ria:</h2>
+                <br />
+                <table width="100%" border="0" cellpadding="6" cellspacing="1">
+                  <tr class="border-line even"  id="L_Q14L01">
+                    <td width="72%" class="border-line">- n&atilde;o me impede de fazer nenhuma das coisas que eu gostaria de fazer</td>
+                    <td width="28%" align="center" valign="middle" class="border-line"><input type="radio" name="Q14L01" value="0"	id="Q14L01_0" /></td>
+                  </tr>
+                  <tr class="border-line">
+                    <td class="border-line">- impede-me de fazer uma ou duas coisas que eu gostaria de fazer</td>
+                    <td width="28%" align="center" valign="middle" class="border-line"><input name="Q14L01" type="radio" 	id="Q14L01_0" value="42" /></td>
+                  </tr>
+                  <tr class="border-line even">
+                    <td class="border-line">- impede-me de fazer a maioria das coisas que eu gostaria de fazer</td>
+                    <td width="28%" align="center" valign="middle" class="border-line"><input type="radio" name="Q14L01" value="84.2" 	id="Q14L01_0" /></td>
+                  </tr>
+                  <tr class="border-line">
+                    <td class="border-line">- impede-me de fazer tudo o que eu gostaria de fazer</td>
+                    <td width="28%" align="center" valign="middle" class="border-line"><input type="radio" name="Q14L01" value="96.7" 	id="Q14L01_0" /></td>
+                  </tr>
+                </table>
+        <br />
+        <a href="javascript:void(0);" onclick="exe_system();" class="botao">ENVIAR</a> 
+        <a href="javascript:void(0);" onclick="resetar();" class="botao">RESETAR</a> 
+        </form>
+
+    </div>
+    
+    
+<div id="resultado">
+    	<div class="title">RESULTADOS OBTIDOS</div>
+        <div id="result_get">
+        	<div style="padding: 0 0 3px 0;">
+                <span class="sub_title">SINTOMAS: </span> <span class="t_result" id="div_sintomas"></span>
+            </div>
+            
+        	<div style="padding: 0 0 3px 0;">
+                <span class="sub_title">ATIVIDADES: </span> <span class="t_result" id="div_atividades"></span>
+            </div>
+            
+        	<div style="padding: 0 0 3px 0;">          
+                <span class="sub_title">IMPACTO: </span> <span class="t_result" id="div_impacto"></span>
+            </div>
+            
+            <div style="padding: 0 0 3px 0;">
+                <span class="sub_title">TOTAL: </span> <span class="t_result" id="div_total"></span>
+            </div>
+            <br />
+            <a href="javascript:void(0);" onclick="voltar();" class="botao">VOLTAR AO FORMULÁRIO</a>
+        </div>
+    </div>
+    
+    <div id="copyright">Sistema desenvolvido por <b>William Castro</b></div>
+</div>
+</body>
+</html>
